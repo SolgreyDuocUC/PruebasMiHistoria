@@ -16,6 +16,7 @@ public class BotonGaleria {
 
     @Before
     public void setUp() {
+
         WebDriverManager.chromedriver().setup();
 
         ChromeOptions options = new ChromeOptions();
